@@ -1,5 +1,5 @@
 class ListaTareas {
-    private val tareas = mutableListOf<Tarea>()
+    val tareas = mutableListOf<Tarea>()
 
     fun agregarTarea(tarea: Tarea) {
         tareas.add(tarea)
