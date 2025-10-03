@@ -27,4 +27,7 @@ class ListaTareas {
             println("No ta")
         }
     }
+    fun tareasComletadas(): List<Tarea> {
+        return tareas.filter { it.completada }
+    }
 }
