@@ -12,12 +12,8 @@ fun main() {
         println(
             """
             Menú:
-            1. Agregar Tarea
-            2. Eliminar Tarea
-            3. Marcar tarea como Completada
-            4. Buscar Tarea por ID
-            5. Marcar Tarea como Completada
-            6. Mostrar Tareas Completadas
+            1. Agregar Tarea  2. Eliminar Tarea  3. Marcar tarea como Completada
+            4. Buscar Tarea por ID  5. Marcar Tarea como Completada  6. Mostrar Tareas Completadas
             7. Salir
         """.trimIndent()
         )
