@@ -14,7 +14,7 @@ fun main() {
             Menú:
             1. Agregar Tarea
             2. Eliminar Tarea
-            3. Mostrar Tareas
+            3. Marcar tarea como Completada
             4. Buscar Tarea por ID
             5. Marcar Tarea como Completada
             6. Mostrar Tareas Completadas
