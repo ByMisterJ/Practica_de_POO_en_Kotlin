@@ -22,12 +22,12 @@ fun main() {
 
         when (opcion) {
 
-            //Agregar Tarea
+            //Agregar Tarea (lo tuve que buscar)
             1 -> {
                 val tarea = Tarea()
                 print("Ingrese el ID de la tarea: ")
                 tarea.id = scanner.nextInt()
-                scanner.nextLine() // Limpiar el buffer
+                scanner.nextLine() // Limpiar el buffer (lo tuve que buscar)
                 print("Ingrese el título de la tarea: ")
                 tarea.titulo = scanner.nextLine()
                 print("Ingrese la descripción de la tarea: ")

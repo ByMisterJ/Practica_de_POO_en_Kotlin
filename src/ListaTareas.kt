@@ -14,9 +14,7 @@ class ListaTareas {
             println("No hay tareas en la lista.")
         } else {
             println("Lista de Tareas:")
-            tareas.forEachIndexed { index, tarea ->
-                println("${index + 1}. $tarea")
-            }
+            tareas.forEach { it.mostrarInfo( it)}
         }
     }
     fun buscarTarea(id: Int){
@@ -24,7 +22,7 @@ class ListaTareas {
         if (tarea != null) {
             println("Tarea encontrada: $tarea")
         } else {
-            println("No ta")
+            println("No se existe la tarea con ese ID")
         }
     }
     fun tareasComletadas(): List<Tarea> {

@@ -11,9 +11,9 @@ class Tarea {
 
     fun mostrarInfo(tarea: Tarea) {
         if (tarea.completada)
-            println("[:)]")
+            println("[completada]")
         else
-            println("[:(]")
+            println("[sin completar]")
         print(" " + tarea.id)
         print(" " + tarea.titulo)
         print(" " + tarea.descripcion)
