@@ -12,9 +12,8 @@ fun main() {
         println(
             """
             Menú:
-            1. Agregar Tarea  2. Eliminar Tarea  3. Marcar tarea como Completada
-            4. Buscar Tarea por ID  5. Marcar Tarea como Completada  6. Mostrar Tareas Completadas
-            7. Salir
+            1. Agregar Tarea  2. Mostrar tareas  3. Marcar tarea como Completada
+            4. Eliminar Tarea por ID  5. Ver solo tareas completadas  6. Salir
         """.trimIndent()
         )
         print("Seleccione una opción: ")
